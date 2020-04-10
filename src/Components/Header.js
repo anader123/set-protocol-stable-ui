@@ -27,12 +27,15 @@ function Header(props) {
 
   const [ shortUserAddress, setShortUserAddress ] = useState('');
   useEffect(() => {
-    if(window.ethereum.selectedAddress !== null) {
-      setUserAddress(window.ethereum.selectedAddress);
-      toggleWalletConnected(true);
-      // Format Display Address
-      const shortAddress = `${userAddress.slice(0, 7)}...${userAddress.slice(37, 42)}`;
-      setShortUserAddress(shortAddress);
+    if(window.ethereum !== undefined) {
+      if(window.ethereum.selectedAddress !== null) {
+        const address = window.ethereum.selectedAddress;
+        setUserAddress(window.ethereum.selectedAddress);
+        toggleWalletConnected(true);
+        // Format Display Address
+        const shortAddress = `${address.slice(0, 7)}...${address.slice(37, 42)}`;
+        setShortUserAddress(shortAddress);
+      }
     }
   }, [setUserAddress, toggleWalletConnected, userAddress]);
 

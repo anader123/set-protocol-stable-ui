@@ -5,6 +5,9 @@ import { Button, Heading } from 'rebass';
 import { connect } from 'react-redux';
 import { setUserAddress, toggleWalletConnected } from '../Redux/actions';
 
+// Ethereum 
+import { initializeWeb3 } from '../Ethereum/SetFunctions';
+
 function WalletConnect(props) {
   const { toggleWalletConnected, setUserAddress } = props;
 
@@ -13,6 +16,7 @@ function WalletConnect(props) {
       const accounts = await window.ethereum.enable();
       setUserAddress(accounts[0]);
       toggleWalletConnected(true);
+      initializeWeb3();
     }
     else {
       window.alert('No Ethereum wallet detected.');

@@ -2,14 +2,15 @@ import { coreContract } from './ContractData';
 import { SetProtocolUtils } from 'set-protocol-utils';
 import Web3 from 'web3';
 
-const injectedWeb3 = window.web3 || undefined;
 let provider;
 
-try {
-  provider = injectedWeb3.currentProvider;
-}
-catch (err) {
-  throw new Error(`No inject web3: ${err}`)
+export const initializeWeb3 = () => {
+  try {
+    provider =  window.web3.currentProvider;
+  }
+  catch (err) {
+    throw new Error(`No inject web3: ${err}`)
+  }
 }
 
 const web3 = new Web3(provider);
