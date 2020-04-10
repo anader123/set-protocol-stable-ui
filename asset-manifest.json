@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/set-stable-token-ui/static/css/main.ae92d09b.chunk.css",
-    "main.js": "/set-stable-token-ui/static/js/main.35e5120e.chunk.js",
-    "main.js.map": "/set-stable-token-ui/static/js/main.35e5120e.chunk.js.map",
+    "main.css": "/set-stable-token-ui/static/css/main.40988e63.chunk.css",
+    "main.js": "/set-stable-token-ui/static/js/main.6c90d68f.chunk.js",
+    "main.js.map": "/set-stable-token-ui/static/js/main.6c90d68f.chunk.js.map",
     "runtime-main.js": "/set-stable-token-ui/static/js/runtime-main.491009eb.js",
     "runtime-main.js.map": "/set-stable-token-ui/static/js/runtime-main.491009eb.js.map",
-    "static/js/2.3981555f.chunk.js": "/set-stable-token-ui/static/js/2.3981555f.chunk.js",
-    "static/js/2.3981555f.chunk.js.map": "/set-stable-token-ui/static/js/2.3981555f.chunk.js.map",
+    "static/js/2.bc2376fd.chunk.js": "/set-stable-token-ui/static/js/2.bc2376fd.chunk.js",
+    "static/js/2.bc2376fd.chunk.js.map": "/set-stable-token-ui/static/js/2.bc2376fd.chunk.js.map",
     "index.html": "/set-stable-token-ui/index.html",
-    "precache-manifest.9990421bbf8bb3607dc5a2f94ef1227d.js": "/set-stable-token-ui/precache-manifest.9990421bbf8bb3607dc5a2f94ef1227d.js",
+    "precache-manifest.32e8b809a256009667b5774bc5240794.js": "/set-stable-token-ui/precache-manifest.32e8b809a256009667b5774bc5240794.js",
     "service-worker.js": "/set-stable-token-ui/service-worker.js",
-    "static/css/main.ae92d09b.chunk.css.map": "/set-stable-token-ui/static/css/main.ae92d09b.chunk.css.map",
-    "static/js/2.3981555f.chunk.js.LICENSE.txt": "/set-stable-token-ui/static/js/2.3981555f.chunk.js.LICENSE.txt",
+    "static/css/main.40988e63.chunk.css.map": "/set-stable-token-ui/static/css/main.40988e63.chunk.css.map",
+    "static/js/2.bc2376fd.chunk.js.LICENSE.txt": "/set-stable-token-ui/static/js/2.bc2376fd.chunk.js.LICENSE.txt",
     "static/media/index.css": "/set-stable-token-ui/static/media/Apercu-Regular.30a16f3e.woff2",
     "static/media/dai.png": "/set-stable-token-ui/static/media/dai.66a0ceb4.png",
     "static/media/eth-icon.svg": "/set-stable-token-ui/static/media/eth-icon.139f8692.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.491009eb.js",
-    "static/js/2.3981555f.chunk.js",
-    "static/css/main.ae92d09b.chunk.css",
-    "static/js/main.35e5120e.chunk.js"
+    "static/js/2.bc2376fd.chunk.js",
+    "static/css/main.40988e63.chunk.css",
+    "static/js/main.6c90d68f.chunk.js"
   ]
 }
