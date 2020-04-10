@@ -2,7 +2,7 @@
   "name": "set-stable-token-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anader123.github.io/set-protocol-stable-ui",
+  "homepage": "https://anader123.github.io/set-stable-token-ui",
   "dependencies": {
     "@rebass/forms": "^4.0.6",
     "@testing-library/jest-dom": "^4.2.4",
