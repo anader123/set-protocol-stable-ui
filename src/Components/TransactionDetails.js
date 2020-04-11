@@ -40,7 +40,7 @@ export default function TransactionDetails(props) {
             href={`https://kovan.etherscan.io/tx/${transactionHash}`}>View on Etherscan</Link>
         </Flex>
       </Card>
-          <Link href={'https://anader123.github.io/set-stable-token-ui/'}>
+          <Link href={'https://ethsetfactory.com/'}>
             <Button>Home</Button>
           </Link>
     </Flex>
