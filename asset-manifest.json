@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/set-stable-token-ui/static/css/main.40988e63.chunk.css",
-    "main.js": "/set-stable-token-ui/static/js/main.a08a769f.chunk.js",
-    "main.js.map": "/set-stable-token-ui/static/js/main.a08a769f.chunk.js.map",
-    "runtime-main.js": "/set-stable-token-ui/static/js/runtime-main.491009eb.js",
-    "runtime-main.js.map": "/set-stable-token-ui/static/js/runtime-main.491009eb.js.map",
-    "static/js/2.88e121a3.chunk.js": "/set-stable-token-ui/static/js/2.88e121a3.chunk.js",
-    "static/js/2.88e121a3.chunk.js.map": "/set-stable-token-ui/static/js/2.88e121a3.chunk.js.map",
-    "index.html": "/set-stable-token-ui/index.html",
-    "precache-manifest.d19271acecce7ab5b6f66d4b67475bdd.js": "/set-stable-token-ui/precache-manifest.d19271acecce7ab5b6f66d4b67475bdd.js",
-    "service-worker.js": "/set-stable-token-ui/service-worker.js",
-    "static/css/main.40988e63.chunk.css.map": "/set-stable-token-ui/static/css/main.40988e63.chunk.css.map",
-    "static/js/2.88e121a3.chunk.js.LICENSE.txt": "/set-stable-token-ui/static/js/2.88e121a3.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/set-stable-token-ui/static/media/Apercu-Regular.30a16f3e.woff2",
-    "static/media/dai.png": "/set-stable-token-ui/static/media/dai.66a0ceb4.png",
-    "static/media/eth-icon.svg": "/set-stable-token-ui/static/media/eth-icon.139f8692.svg"
+    "main.css": "/static/css/main.51e372cc.chunk.css",
+    "main.js": "/static/js/main.a4928a4d.chunk.js",
+    "main.js.map": "/static/js/main.a4928a4d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d173643.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d173643.js.map",
+    "static/js/2.7c2aff91.chunk.js": "/static/js/2.7c2aff91.chunk.js",
+    "static/js/2.7c2aff91.chunk.js.map": "/static/js/2.7c2aff91.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8f7f6508a97be0705b2a12e21007bea6.js": "/precache-manifest.8f7f6508a97be0705b2a12e21007bea6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.51e372cc.chunk.css.map": "/static/css/main.51e372cc.chunk.css.map",
+    "static/js/2.7c2aff91.chunk.js.LICENSE.txt": "/static/js/2.7c2aff91.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Apercu-Regular.30a16f3e.woff2",
+    "static/media/dai.png": "/static/media/dai.66a0ceb4.png",
+    "static/media/eth-icon.svg": "/static/media/eth-icon.139f8692.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.491009eb.js",
-    "static/js/2.88e121a3.chunk.js",
-    "static/css/main.40988e63.chunk.css",
-    "static/js/main.a08a769f.chunk.js"
+    "static/js/runtime-main.5d173643.js",
+    "static/js/2.7c2aff91.chunk.js",
+    "static/css/main.51e372cc.chunk.css",
+    "static/js/main.a4928a4d.chunk.js"
   ]
 }
