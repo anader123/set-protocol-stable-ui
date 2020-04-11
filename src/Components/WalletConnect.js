@@ -13,10 +13,16 @@ function WalletConnect(props) {
 
   const connectWallet = async () => {
     if(window.ethereum) {
-      const accounts = await window.ethereum.enable();
-      initializeWeb3();
-      setUserAddress(accounts[0]);
-      toggleWalletConnected(true);
+      // Make sure that the user is connected to Kovan
+      if(window.ethereum.networkVersion === "42") {
+        const accounts = await window.ethereum.enable();
+        initializeWeb3();
+        setUserAddress(accounts[0]);
+        toggleWalletConnected(true);
+      }
+      else{
+        window.alert('Please switch to the Kovan Network.')
+      }
     }
     else {
       window.alert('No Ethereum wallet detected.');

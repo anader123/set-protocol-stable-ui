@@ -31,7 +31,7 @@ function Header(props) {
   const [ shortUserAddress, setShortUserAddress ] = useState('');
   // Checks if the user has their wallet enabled 
   useEffect(() => {
-    if(window.ethereum !== undefined) {
+  if(window.ethereum !== undefined) {
       if(window.ethereum.selectedAddress !== null 
         && window.ethereum.selectedAddress !== undefined) {
         const address = window.ethereum.selectedAddress;
