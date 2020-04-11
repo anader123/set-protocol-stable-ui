@@ -3,4 +3,4 @@ A user interface that allows user to create a Stable Token Set using the Set Pro
 
 ![fungible token image](src/Images/set-factory-flow.png)
 
-Tools: React, Redux, web3.js, set-protocol-utils.js, Styled Components
+Tools: React, Redux, web3.js, D3, set-protocol-utils.js, Styled Components

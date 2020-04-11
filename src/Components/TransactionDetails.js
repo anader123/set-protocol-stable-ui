@@ -18,7 +18,7 @@ export default function TransactionDetails(props) {
   useEffect(() => {
     if(setAddress !== '') {
       // Format Set Address
-      const shortAddress = `${setAddress.slice(0, 9)}...${setAddress.slice(35, 42)}`;
+      const shortAddress = `${setAddress.slice(0, 7)}...${setAddress.slice(35, 42)}`;
       updateShortSetAddress(shortAddress);
     }
   }, [setAddress]);

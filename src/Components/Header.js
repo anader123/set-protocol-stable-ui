@@ -9,6 +9,9 @@ import {
   toggleWalletConnected
 } from '../Redux/actions';
 
+// Ethereum
+import { initializeWeb3 } from '../Ethereum/SetFunctions';
+
 import {
   Flex,
   Text,
@@ -26,12 +29,15 @@ function Header(props) {
   } = props;
 
   const [ shortUserAddress, setShortUserAddress ] = useState('');
+  // Checks if the user has their wallet enabled 
   useEffect(() => {
     if(window.ethereum !== undefined) {
-      if(window.ethereum.selectedAddress !== null) {
+      if(window.ethereum.selectedAddress !== null 
+        && window.ethereum.selectedAddress !== undefined) {
         const address = window.ethereum.selectedAddress;
         setUserAddress(window.ethereum.selectedAddress);
         toggleWalletConnected(true);
+        initializeWeb3();
         // Format Display Address
         const shortAddress = `${address.slice(0, 7)}...${address.slice(37, 42)}`;
         setShortUserAddress(shortAddress);
@@ -56,10 +62,7 @@ function Header(props) {
       <div>
       {!walletConnected 
       ?
-      <Flex alignItems='center'>
-        <Circle />
-        <Text mr={[1, 4]}>No Wallet Connected</Text>
-      </Flex>
+      <Text mr={[1, 4]}>No Wallet Connected</Text>
       :
       <Link 
         target="_blank" 
@@ -87,12 +90,4 @@ const Bar = styled.div`
 	margin: 0px 12px;
 	border-left: 1px solid black;
   height: 42px;
-`;
-
-const Circle = styled.div`
-  height: 20px;
-  width: 20px;
-  margin: 0px 12px;
-  border-radius: 50%;
-  background: #2909f7;
 `;

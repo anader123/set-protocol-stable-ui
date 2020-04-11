@@ -14,9 +14,9 @@ function WalletConnect(props) {
   const connectWallet = async () => {
     if(window.ethereum) {
       const accounts = await window.ethereum.enable();
+      initializeWeb3();
       setUserAddress(accounts[0]);
       toggleWalletConnected(true);
-      initializeWeb3();
     }
     else {
       window.alert('No Ethereum wallet detected.');
